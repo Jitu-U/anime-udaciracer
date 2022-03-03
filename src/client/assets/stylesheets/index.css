@@ -1,0 +1,128 @@
+/* -------------------  GENERAL SITE STYLES --------------------- */
+
+/* -------------------  MOBILE  --------------------- */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  min-height: 100vh;
+}
+
+header {
+  background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/07/kamado-tanjiro-from-demon-slayer-and-uzumaki-naruto-in-front-of-demon-slayer-corps-and-shinobis.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.493);
+  padding: 2rem;
+  border-radius: 34px;
+  box-shadow: 0px 0px 21px rgba(0,0,0,0.4);
+}
+
+h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.3;
+  padding: 10px 0;
+}
+
+h3 {
+  color: black;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+h4 {
+  color: #545454;
+  font-weight: light;
+  font-size: 20px;
+}
+
+p {
+  color: black;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.button {
+  max-width: 300px;
+  padding: 20px 10px;
+  background-color: rgba(0, 26, 255, 0.651);
+  cursor: pointer;
+  border-radius: 21px;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0px 0px 5px rgba(0, 26, 255, 0.651);
+}
+
+.button:hover{
+  box-shadow: 0px 0px 10px rgba(0, 26, 255, 0.651);
+}
+
+main {
+  flex: 1;
+}
+
+section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+footer {
+  height: 200px;
+  background-color: black;
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  header {
+    height: 100vh;
+  }
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  header {
+    height: 700px;
+  }
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  header {
+    height: 700px;
+  }
+}

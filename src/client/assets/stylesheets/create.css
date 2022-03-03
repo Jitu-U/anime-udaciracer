@@ -1,0 +1,21 @@
+/* CREATE PAGE SPECIFIC STYLES */
+
+/* -------------------  MOBILE  --------------------- */
+header{
+  background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/07/kamado-tanjiro-from-demon-slayer-and-uzumaki-naruto-in-front-of-demon-slayer-corps-and-shinobis.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5');
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+}
