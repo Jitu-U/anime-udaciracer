@@ -2,8 +2,8 @@
 
 // The store will hold all information needed globally
 var store = {
-	track_id: undefined,
-	player_id: undefined,
+	track_id: 1,
+	player_id: 1,
 	race_id: undefined,
 }
 
@@ -398,8 +398,10 @@ function accelerate(id) {
 	// POST request to `${SERVER}/api/races/${id}/accelerate`
 	// options parameter provided as defaultFetchOpts
 	// no body or datatype needed for this request
+	console.log(id);
 	fetch(`${SERVER}/api/races/${id}/accelerate`, {
 		method: 'POST',
 		...defaultFetchOpts,
+		dataType: ''
 	}).catch( err => console.log(`Error with acceleration: ${err}`));
 }
